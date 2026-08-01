@@ -1,8 +1,25 @@
 aid: raenest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raenest.png
 name: Raenest
-description: 'Raenest is a company surfaced as a portfolio company of qed-investors, techstars and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Raenest (formerly Geegpay) is a global money platform for freelancers,
+  creators, remote workers, students, and businesses in Africa and beyond. It provides
+  multi-currency accounts in USD, GBP, EUR, USDT, and USDC, virtual and physical Visa
+  cards, international payment collection from 190+ countries, smart invoicing tools,
+  US stock investing, stablecoin support, and a rewards program. Raenest is delivered
+  through its mobile and web apps (app.raenest.com); as of this enrichment pass it
+  publishes no public developer API, SDKs, or API documentation. Backed by QED Investors
+  and Techstars.'
 url: https://raw.githubusercontent.com/api-evangelist/raenest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Payments
+- Multi-Currency
+- Cross-Border Payments
+- Virtual Cards
+- Invoicing
+- Africa
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.raenest.com
+  url: https://www.raenest.com
+- type: Blog
+  url: https://raenest.com/blog
+- type: Support
+  url: https://help.raenest.com
+- type: SignUp
+  url: https://app.raenest.com/register
+- type: Login
+  url: https://app.raenest.com/
+- type: TermsOfService
+  url: https://raenest.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://raenest.com/privacy-policy
+- type: DomainSecurity
+  url: security/raenest-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
